@@ -16,3 +16,31 @@ var monthNames = ['Jan', 'Feb', 'Mar', 'Apr'];
 var bulkNumbers = [5, 5, 6, 6, 9, 9, 2, 2, 2, 5, 2];
 
 // do your work below!
+let nameArray = [];
+nameArray.push('Calvin', 'Moon')
+genericNumberArray.push(6, 7, 8, 9, 10)
+let popResult = colors.pop();
+scrambledWords.reverse();
+phoneNumber.reverse();
+let nextOrder = orderQueue.shift();
+mixedNums.sort();
+mixedWords.sort();
+let notFruit = fruitCollection.splice(1, 3);
+gemBox.splice(5, 2);
+gemBox.splice(6);
+upToTen.splice(2, 0, 3, 4, 5, 6, 7, 8);
+brownOnly.splice(1, 5);
+brownOnly.splice(2, 0, 'brown', 'brown', 'brown');
+orderedValues.unshift(1, 2, 3);
+let orderedValuesNewLength = orderedValues.length;
+let randomThingsArray = genericNumberArray.concat(colors);
+let updatedOrders = orderQueue.concat({takeOut: 'tacos'}, {takeOut: 'pizza'});
+let sentence = scrambledWords.join(' ');
+let myFruits = fruitCollection.join(' + ');
+let favoriteFriends = friends.slice(1, 3);
+let owesMoney = friends.slice(3);
+let monthNameString = monthNames.toString();
+let favoriteColor = colors.indexOf('Red');
+let favoriteEvenNumber = mixedNums.indexOf(76);
+let lastNine = bulkNumbers.lastIndexOf(9);
+let lastFive = bulkNumbers.lastIndexOf(5);
